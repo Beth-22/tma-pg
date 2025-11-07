@@ -189,7 +189,7 @@ class QRCodeBot:
             print("Make sure you have a stable internet connection")
 
 def main():
-    BOT_TOKEN = "8511644409:AAHpgGDiQTgvXhjAMJomjWuv0eWtxk9AxjM"
+    BOT_TOKEN = "here"
     
     if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
         print("Please set your bot token!")
