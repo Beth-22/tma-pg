@@ -7,7 +7,7 @@ from telegram.ext import (
 from io import BytesIO
 import logging
 
-# Enable logging
+# Enable logging.
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
