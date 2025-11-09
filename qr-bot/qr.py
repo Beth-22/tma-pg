@@ -50,7 +50,7 @@ class QRCodeBot:
         logger.info(f"User {user_id} sent: {user_message}")
         
         if user_message == 'Generate QR Code':
-            # Store that user is in QR generation flow
+            # Store that user is in QR generation flow.
             context.user_data['awaiting_phone'] = True
             await update.message.reply_text(
                 "👋 Let's create your QR code!\n\nPlease enter your phone number:",
